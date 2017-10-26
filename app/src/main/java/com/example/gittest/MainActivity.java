@@ -2,12 +2,16 @@ package com.example.gittest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+    private TextView txt_test;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        txt_test = (TextView) findViewById(R.id.txt_test);
+        txt_test.setText("这是修改过后的项目");
+
     }
 }
