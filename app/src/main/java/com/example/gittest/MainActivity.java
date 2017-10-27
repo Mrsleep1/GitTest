@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         txt_test = (TextView) findViewById(R.id.txt_test);
-        txt_test.setText("这是修改过后的项目");
+        txt_test.setText("hello");
 
     }
 }
